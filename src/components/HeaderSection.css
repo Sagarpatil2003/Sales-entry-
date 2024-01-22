@@ -1,0 +1,56 @@
+.container {
+  margin-top: 20px;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.error-message {
+  color: red;
+}
+
+.header-table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  padding: 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tbody {
+  display: block;
+  max-height: 300px; /* Adjust the max height as needed */
+  overflow-y: auto;
+}
+
+/* Add some spacing between table cells for better readability */
+th, td {
+  padding: 15px;
+}
+/* Add styling for the Remove button */
+button {
+  padding: 10px;
+  background-color: #ff3333; /* Adjust the background color as needed */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #cc0000; /* Adjust the hover background color as needed */
+}

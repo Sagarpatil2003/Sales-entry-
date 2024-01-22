@@ -1,25 +1,20 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import HeaderSection from './components/HeaderSection'; 
+import DetailSection from './components/DetailSection'; 
+import ItemMaster from './components/ItemMaster';
+import PostDataForm from './components/PostDataForm'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+ 
+const App = () => {
+return (
+    <div>
+      <HeaderSection/> 
+      <DetailSection/>
+      <ItemMaster/>      
+      {/* <PostDataForm/> */}
     </div>
   );
-}
+};
 
 export default App;

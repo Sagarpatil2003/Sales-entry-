@@ -1,0 +1,45 @@
+tbody styles
+tbody {
+  display: block;
+  max-height: 300px; 
+  overflow-y: auto;
+}
+
+/* tr styles */
+tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed; /* Ensure equal column width */
+  box-sizing: border-box;
+}
+
+/* th and td styles */
+th, td {
+  box-sizing: border-box;
+  padding: 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+  width: 100%;
+  word-wrap: break-word; /* Allow text to wrap within cells */
+}
+
+/* Loading state styling */
+p {
+  font-size: 1.2em;
+  color: #666;
+  margin-top: 20px;
+  text-align: center;
+}
+/* Add styling for the Remove button */
+button {
+  padding: 10px;
+  background-color: #ff3333; /* Adjust the background color as needed */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #cc0000; /* Adjust the hover background color as needed */
+}
+
